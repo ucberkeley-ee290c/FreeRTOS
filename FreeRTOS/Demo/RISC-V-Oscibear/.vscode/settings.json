@@ -1,0 +1,9 @@
+{
+    "files.associations": {
+        "ee290c_uart.h": "c",
+        "oscibear_hal.h": "c",
+        "oscibear.h": "c",
+        "unistd.h": "c",
+        "ee290c_oscibear.h": "c"
+    }
+}
