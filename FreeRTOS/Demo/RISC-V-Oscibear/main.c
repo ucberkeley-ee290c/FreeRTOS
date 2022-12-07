@@ -37,7 +37,7 @@ void vApplicationIdleHook( void );
 void vApplicationStackOverflowHook( TaskHandle_t pxTask, char *pcTaskName );
 void vApplicationTickHook( void );
 
-int main_blinky( void );
+extern int main_pingPong( void );
 
 /*-----------------------------------------------------------*/
 
@@ -52,7 +52,7 @@ int main( void )
 
 	HAL_UART_init(UART0, &UART_init_config);
 
-	ret = main_blinky();
+	ret = main_pingPong();
 
 	return ret;
 }

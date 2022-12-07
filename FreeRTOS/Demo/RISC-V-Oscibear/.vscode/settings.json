@@ -4,6 +4,7 @@
         "oscibear_hal.h": "c",
         "oscibear.h": "c",
         "unistd.h": "c",
-        "ee290c_oscibear.h": "c"
+        "ee290c_oscibear.h": "c",
+        "bearlyml_hal_uart.h": "c"
     }
 }

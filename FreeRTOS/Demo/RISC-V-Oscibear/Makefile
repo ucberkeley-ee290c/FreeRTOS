@@ -38,7 +38,7 @@ else
     CFLAGS += -Os -flto
 endif
 
-SRCS = main.c main_blinky.c printf-stdarg.c \
+SRCS = main.c main_pingpong.c printf-stdarg.c \
 	platform/ee290c_oscibear.c \
 	$(HAL_SRC_DIR)/oscibear_hal.c \
 	$(HAL_SRC_DIR)/oscibear_hal_uart.c \
